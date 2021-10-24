@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/usd7pps.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/blog.css">
+
+    <!-- JS -->
+    <script src="js/partials.js"></script>
+    <script src="js/globals.js"></script>
+    <script src="js/gridView.js"></script>
+    <title>Metz Redesign</title>
+</head>
+<body>
+    <!-- NAV STARTS HERE -->
+    <div class="nav">
+        <div class="nav">
+            <div class="metz-title" id="title">
+                <div class="logo" id="logo">
+                    <img src="assets/metz-logo.png" alt="Metz Logo" width="120" height="120"/>
+                </div>
+                <div class="menu-title" id="menuTitle">
+                    <p style="font-size: x-large;">
+                        <li><a href="index.html">Metz Culinary Management of New College of Florida</a></li>
+                    </p>
+                </div>
+                <div class="options" id="options">
+                    <ul>
+                        <li><div class="signUp">SIGN UP</div></li>
+                        <li><a href="aboutus.html">ABOUT US</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="plans.html">MEAL PLANS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NAV ENDS HERE -->
+
+
+    <!-- 
+    'Body' refers to anything between the footer and the header.
+    It has it's own special styling rules defined in the globals.css file to make sure everything
+    works smoothly.
+    -->
+    <div class="body">
+
+        <!-- 
+        There's a flexBox named 'columHolder' which aligns both the leftColumn and the rightColum side by side.
+        Since the Left Column has a bigger width then the right one, it lets us emulate the format we made in AdobeXD
+         -->
+        <div class="columnHolder">
+            <div class="leftColumn"> <!-- Feedback part -->
+                <!-- The CSS for the 'one' & 'two' class is in gridView.css -->
+                <div class="one">
+                </br>
+                    <form style="text-align: center;">
+                        <label for="netID">NetID:</label>
+                        </br>
+                        <input type="text1" id="netID">
+                        </br></br>
+                        <label for="email">E-mail:</label>
+                        </br>
+                        <input type="text1" id="email">
+                        </br></br>
+                        <input type="checkbox" id="anonymous" name="anonymous">
+                        <label for="anonymous"> I want to give feedback anonymously.</label>
+                        </br></br>
+                        <label for="feedback">Type your feedback here:</label>
+                        </br>
+                        <input type="textfeedback" id="feedback" value="">
+                        </br>
+                        <input type="submit" value="SUBMIT">
+                    </form>
+                </div>
+            </div>
+
+            <div class="rightColumn"> <!-- Social media part -->
+                <div class="two">
+                    <h3 style="font-size: x-large; color: #012F87; text-align: center; padding: 10%">
+                        You can find out more about us in our social media pages.</br> </br>
+                        <strong>FOLLOW US FOR MORE!</strong>
+                    </h3>
+
+                    <div style="text-align: center; padding-left: 15%; padding-right: 15%;">
+                        <input type="image" id="image" alt="Facebook" src="assets/images/icons/facebook.png" 
+                        onclick="window.location.href='https://www.facebook.com/newcollegedining/';" style="width: 100px; height: 110px;">
+                        <input type="image" id="image" alt="instagram" src="assets/images/icons/instagram.png"
+                        onclick="window.location.href='https://www.instagram.com/metznewcollege/';" style="width: 90px; height: 90px;">
+                        <input type="image" id="image" alt="Twitter" src="assets/images/icons/twitter.png"
+                        onclick="window.location.href='https://twitter.com/metznewcollege';" style="width: 110px; height: 110px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </br>
+    </br>
+    
+        <div class="header">
+            BLOG
+        </div>
+
+        <div class="three">
+                <p style="margin: 15px">
+                <strong>Anonymous</strong></br></br>
+                Doritos Taco Pasta Bake - <em>8/10</em> </br>
+                The exact flavor profile of a Doritos Locos Taco from Taco Bell, 
+                so if you're a fan of that, you'll love this! Only complaints are:</br>
+                1) it looks absolutely abhorrent.</br>
+                2) not enough spice at all.</br>
+                If you simply do not look at it and add some hot sauce, it's not a bad meal from this cursed establishment.
+                </p>
+        </div>
+
+        <div class="three">
+            <p style="margin: 15px">
+            <strong>Fatih Atasoy</strong></br></br>
+            Beef brisket w baked beans and Mac and cheese LAMP this SLAPS!!! - <em>10/10</em></br>
+            The beef was nice and tender and the Mac and cheese was creamy as always! 
+            Mike talked to me about voter engagement, don’t forget to vote!!!! </br>
+            </p>
+        </div>
+
+        <div class="three">
+            <p style="margin: 15px">
+            <strong>Ahmet Sami Cemek</strong></br></br>
+            Midwest bowl with chicken, rice, beans, corn casserole, cheese, and salsa - <em>8.5/10</em></br>
+            This was good, I really enjoyed the combination of ingredients, 
+            good ratios with enough moisture throughout the bowl.</br>
+            </p>
+        </div>
+
+        <div class="three">
+            <p style="margin: 15px">
+            <strong>Anonymous</strong></br></br>
+            Chicken fajita with peppers, onions, spicy rice and garbanzo beans on tortilla - <em>2/10</em></br>
+            I’m going to be harsh but honest; this is one of the worst meals that I’ve gotten here. 
+            You could use the chicken as a sponge. And it just doesn’t sit right with me that I’m eating my last meal of the day at 4:27 pm lmao. 
+            I understand the shortened hours for extra cleaning but I’m used to eating at 8-8:30. 
+            Overall the experience was not as great as it usually is. </br>
+            </p>
+        </div>
+
+        <div class="button">
+            <button class="button button1">Read more</button>
+        </div>
+
+        <div class="three" style="margin-bottom: 15px;">
+            <div style="margin: 15px;">
+                <label for="feedback">You can share your experience with us here:</label>
+                </br>
+                <input type="textfeedback" id="feedback" value="">
+                </br>
+                <label for="netID">NetID:</label>
+                </br>
+                <input type="text1" id="netID">
+                </br>
+                <label for="email">E-mail:</label>
+                </br>
+                <input type="text1" id="email">
+                </br></br>
+                <input type="checkbox" id="anonymous" name="anonymous">
+                <label for="anonymous"> I want to share my experience anonymously.</label>
+                </br></br>
+                <button type="button" style="font-size: medium; padding: 10px;">Submit</button>
+                </br>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER STARTS HERE -->
+    <div class="footer">
+        <div>
+            <img src="assets/images/icons/logoplate.png" width="48px" height="48px">
+            <div class="textContainer">
+                GROUP MAIN PLATE  |  New College of Florida Metz Redesign Class Project
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER ENDS HERE -->
+</body>
+</html>
+
+<!-- ((innerWidth - document.getElementById("menuTitle").clientWidth) + (document.getElementById("logo").clientWidth / 2)) / 2 -->
