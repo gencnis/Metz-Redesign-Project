@@ -31,7 +31,7 @@
     height: 219px;
     margin-top: 15px;
     margin-left: 15px;
-    font-family: futura-pt, sans-serif;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
 }
 
 /* This one is for the right. */
@@ -40,7 +40,7 @@
     background-color: white;
     width: 100%;
     /*height: 500px;*/
-    font-family: Futura;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
 }
 
 #stationInfo{
@@ -50,6 +50,7 @@
 }
 
 h3 {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
     font-size: large;
     color: #012F87;
 }
