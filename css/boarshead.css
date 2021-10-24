@@ -1,0 +1,91 @@
+.body {
+    text-align: center;
+    overflow-y: scroll;
+    /* Futura Font */
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+.columnContainer {
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.column {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    height: 80vh;
+}
+
+.col1 { 
+    margin-left: 15px;
+}
+
+.col2 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.col3 {
+    margin-right: 15px;
+}
+
+.placeholderItem {
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+
+
+.smallItem {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    margin-top: 25px;
+}
+
+.placeholderItem > img {
+    width: 300px;
+    height: 300px;
+}  
+
+.comment {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    color: #012F87;
+    padding: 15px;
+}
+
+.smallItem {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    background-color: #C23131;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 32px;
+    height: fit-content;
+    padding: 25px;
+    color: white;
+}
+
+.one {
+    background-color: #C23131;
+    color: white;
+}
+
+.two {
+    background-color: #FFDFDF;
+    color: black;
+}
+
+.three {
+    background-color: #E9DBDB;
+    color: var(--blue5);
+}

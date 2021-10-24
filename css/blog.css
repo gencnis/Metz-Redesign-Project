@@ -1,0 +1,130 @@
+/* These three classes control the structure of the gridView page */
+.columnHolder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.leftColumn {
+    float: left;
+    width: 55%;
+}
+
+.rightColumn {
+    float: left;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.three {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: white;
+    width: 80%;
+    height: 100%x;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #00549B;
+    color: white;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+/* These classes are each black box, this one is for the left side column */
+.one {
+    background-color: white;
+    width: 100%;
+    height: 420px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+/* This one is for the right. */
+.two {
+    margin-top: 15px;
+    background-color: white;
+    width: 100%;
+    height: 420px;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+input{
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+input[type=text1]{
+    width: 25%;
+    height: 10%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #012F87;
+    border-radius: 4px;
+}
+
+input[type=textfeedback] {
+    width: 80%;
+    height: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #012F87;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #012F87;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 20%;
+    height: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #012F87;
+    border-radius: 4px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 45%;
+}
+  
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #012F87;
+}
+  
+.button1:hover {
+    background-color: #012F87;
+    color: white;
+}
+  

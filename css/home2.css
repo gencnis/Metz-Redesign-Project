@@ -1,0 +1,64 @@
+.body {
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.headerButtonContainer {
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+} .headerButtonContainer > ul > li {
+
+}
+
+.headerButton {
+    height: 48px;
+    width: 325px;
+
+    vertical-align: top;
+    display: inline-block;
+}
+
+.columnContainer {
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.column {
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    height: 80vh;
+}
+
+.col1 { 
+    margin-left: 15px;
+    width: 37%;
+}
+
+.col2 {
+    width: 30%;
+}
+
+.col3 {
+    margin-right: 15px;
+    width: 23%;
+    overflow-y: scroll;
+    min-height: 800px;
+}
+
+.placeholderItem {
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}

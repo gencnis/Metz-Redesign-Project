@@ -1,0 +1,91 @@
+@import url(./colors.css);
+
+.body {
+    display: flex;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+.buttons {
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.buttons > ul > li > button {
+    width: 25vw;
+    height: 3.75vw;
+    border-radius: 15px;
+    border-style: none;
+    margin-top: 15px;
+    margin-left: 3.125vw;
+    margin-right: 3.125vw;
+    margin-top: 3.5vh;
+    background-color: var(--blue4point5);
+    text-align: center;
+
+    /* Font Formatting */
+    color: var(--white);
+    font-weight: bold;
+    font-size: 23px;
+    /* Use Futura font */
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+.cards {
+    margin-top: 10px;
+}
+
+.card {
+    background-color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    
+    /* Box shadow on the bottom left and right side of the div */
+    box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.45);
+}
+
+li {
+    height: 100%;
+}
+
+.card > * {
+    color: var(--blue4point5);
+} .draw > * {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.card > p {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.majorCard > p {
+    padding-top: 36px;
+    font-size: 32px;
+}
+
+.cardTitle {
+    padding-top: 15px;
+}
+
+.minorCard { width: 65%; height: 435px; }
+.majorCard { width: 90%; height: 500px; }
+
+.option {
+    display: inline;
+    font-size: 36px;
+    top: 5px;
+    padding-right: 5%;
+    position: relative;
+}
+
+.yes { color: green; } 
+.no { color: red; }
